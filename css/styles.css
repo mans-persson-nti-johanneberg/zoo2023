@@ -1,7 +1,10 @@
 body{margin: 0px;}
 
-.container{
+#container{
     display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-rows: 15% 10% 1fr;
     grid-template-areas: 
     'he'
     'na'
@@ -11,13 +14,46 @@ body{margin: 0px;}
 
 
 header{
+display: flex;
 grid-area: he;
+background: aliceblue;
+align-items: center;
+justify-content: center;
+font-size: xx-large;
 }
 
 nav{
     grid-area: na;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: grey;
+    font-size: large;
 }
 
 main{
     grid-area: ma;
+    background: url(../img/animals/Clementine-and-Gus-Romantic-Meal-2.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   flex-direction: column-reverse;
+  align-items: flex-end;
+   justify-content: center;
+}
+
+#article1{
+    background: aliceblue;
+    height: 40%;
+    width: 20%;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#article2{
+    margin: 10px;
+    background: aliceblue;
+    height: 40%;
+    width: 20%;
+    border-radius: 20px;
 }
