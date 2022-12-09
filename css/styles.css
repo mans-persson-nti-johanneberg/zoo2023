@@ -13,7 +13,7 @@ body{margin: 0px;}
 }
 
 
-header{
+#h1{
 display: flex;
 grid-area: he;
 background: aliceblue;
@@ -22,7 +22,7 @@ justify-content: center;
 font-size: xx-large;
 }
 
-nav{
+#n1{
     grid-area: na;
     display: flex;
     justify-content: space-evenly;
@@ -31,7 +31,7 @@ nav{
     font-size: large;
 }
 
-main{
+#m1{
     grid-area: ma;
     background: url(../img/animals/Clementine-and-Gus-Romantic-Meal-2.jpg);
     background-repeat: no-repeat;
@@ -56,4 +56,119 @@ main{
     height: 40%;
     width: 20%;
     border-radius: 20px;
+    
 }
+
+.p1{
+padding: 15px 15px;
+
+
+
+}
+
+.link1{
+display: block;
+display: flex;
+height: 40px;
+width: 80px;
+background-color: white;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+}
+
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+a:active{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+#container2{
+display: grid;
+
+width: 100vw;
+grid-template-columns: 1fr 2fr 1fr;
+grid-template-rows: 15% 10% 1fr;
+
+grid-template-areas: 
+'h2 h2 h2'
+'n2 n2 n2'
+'a2 m2 a3   '
+
+;
+
+}
+
+#h2{
+    display: flex;
+    grid-area: h2;
+    background: aliceblue;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    
+}
+    
+#n2{
+    grid-area: n2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #c8ad7e;
+    font-size: large;
+    
+
+}
+
+.a{
+   
+}
+
+#a2{
+    grid-area: a2;
+    background: url(../img/food/image.jpeg);
+    background-size: cover;
+}
+
+#a3{
+    grid-area: a3;
+    background: url(../img/food/capybara-1599766_1920.0.0.1473626820.jpg);
+    background-size: cover;
+    
+
+}
+
+#m2{
+    grid-area: m2;
+    background-color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    
+    
+}
+
+.head{
+    font-size: 50px;
+}
+
+p{
+    font-size: large;
+    font-family: ;
+}
+
+        
