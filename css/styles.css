@@ -209,14 +209,51 @@ p{
     grid-area: m3;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
     
 }
 
 .card{
-    height: 30%;
-    width: 30%;
-    background-color: orange;
+    height:45%;
+    width: 22%;
+    background: grey;
+}
+
+#img1{
+    height: 50%;
+    width: auto;
+    background: url(../img/animals/winton_overwatch.png);
+    background-size: inherit;
+
+}
+
+#img2{
+    
+}
+
+#img3{
+    
+}
+
+#img4{
+    
+}
+
+#img5{
+    
+}
+
+#img6{
+    
+}
+
+#img7{
+    
+}
+
+#img8{
+    
 }
 
 
