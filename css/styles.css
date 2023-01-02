@@ -215,20 +215,33 @@ p{
 }
 
 .card{
+    display: flex;
     height:45%;
     width: 22%;
-    background: grey;
+    background-color: #9e8f81;
+    flex-direction: column;
 }
 
+.text{
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
 #img1{
     height: 50%;
     width: auto;
-    background: url(../img/animals/winton_overwatch.png);
+    background: url(/img/animals/2019-07-24-04-30-37-550x413.jpeg);
     background-size: inherit;
 
 }
 
 #img2{
+    height: 50%;
+    width: auto;
+    background: url(/img/animals/feeding-time-for-the-panda-550x413.jpeg);
+    background-size: inherit;
     
 }
 
