@@ -34,7 +34,7 @@ font-size: xx-large;
 
 #m1{
     grid-area: ma;
-    background: url(../img/animals/Clementine-and-Gus-Romantic-Meal-2.jpg);
+    background: url(../img/animals/realfirstpage.png);
     background-repeat: no-repeat;
    background-size: cover;
    display: flex;
@@ -227,6 +227,7 @@ p{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 5px;
 
 }
 #img1{
@@ -240,33 +241,54 @@ p{
 #img2{
     height: 50%;
     width: auto;
-    background: url(/img/animals/feeding-time-for-the-panda-550x413.jpeg);
-    background-size: inherit;
+    background: url(/img/animals/image\ \(4\).png);
+    background-size: cover;
     
 }
 
 #img3{
+    height: 50%;
+    width: auto;
+    background: url(/img/animals/gort.png);
+    background-size: cover;
     
 }
 
 #img4{
+    height: 50%;
+    width: auto;
+    background: url(/img/animals/image\ \(1\).png);  
     
 }
 
 #img5{
+    height: 50%;
+    width: auto;
+    background: url(/img/animals/Untitled-1.png);
+    background-size: cover;
     
 }
 
 #img6{
-    
+    height: 50%;
+    width: auto;
+    background: url(/img/animals/Untitled-2.png);
+    background-size: cover;
 }
 
 #img7{
+    height: 75%;
+    width: auto;
+    background: url(/img/animals/nedladdning.png);
+    background-size: contain;
     
 }
 
 #img8{
-    
+    height: 75%;
+    width: auto;
+    background: url(/img/animals/nedladdning.png);
+    background-size: contain;
 }
 
 
