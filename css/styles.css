@@ -1,29 +1,31 @@
-body{margin: 0px;}
+body {
+    margin: 0px;
+}
 
-#container{
+#container {
     display: grid;
     height: 100vh;
     width: 100vw;
     grid-template-rows: 15% 10% 1fr;
-    grid-template-areas: 
-    'he'
-    'na'
-    'ma'
+    grid-template-areas:
+        'he'
+        'na'
+        'ma'
     ;
 }
 
 
 
-#h1{
-display: flex;
-grid-area: he;
-background: aliceblue;
-align-items: center;
-justify-content: center;
-font-size: xx-large;
+#h1 {
+    display: flex;
+    grid-area: he;
+    background: aliceblue;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
 }
 
-#n1{
+#n1 {
     grid-area: na;
     display: flex;
     justify-content: space-evenly;
@@ -32,18 +34,18 @@ font-size: xx-large;
     font-size: large;
 }
 
-#m1{
+#m1 {
     grid-area: ma;
     background: url(../img/animals/realfirstpage.png);
     background-repeat: no-repeat;
-   background-size: cover;
-   display: flex;
-   flex-direction: column-reverse;
-  align-items: flex-end;
-   justify-content: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    justify-content: center;
 }
 
-#article1{
+#article1 {
     background: aliceblue;
     height: 40%;
     width: 20%;
@@ -51,143 +53,150 @@ font-size: xx-large;
     border-radius: 20px;
 }
 
-#article2{
+#article2 {
     margin: 10px;
     background: aliceblue;
     height: 40%;
     width: 20%;
     border-radius: 20px;
-    
-}
-
-.p1{
-padding: 15px 15px;
-
-
 
 }
 
-.link1{
-display: block;
-display: flex;
-height: 40px;
-width: 80px;
-background-color: white;
-justify-content: center;
-align-items: center;
-border-radius: 5px;
+.header2{
+    padding-left: 15px;
+}
+
+.p1 {
+    padding: 15px 15px;
+
+
+
+}
+
+.link1 {
+    display: block;
+    display: flex;
+    height: 40px;
+    width: 80px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
 }
 
 
-a:link{
-    text-decoration: none;
-    color: black;
-}
-a:visited{
-    text-decoration: none;
-    color: black;
-}
-a:hover{
-    text-decoration: none;
-    color: black;
-}
-a:active{
+a:link {
     text-decoration: none;
     color: black;
 }
 
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
 
 
-#container2{
-display: grid;
 
-width: auto;
-grid-template-columns: 1fr 2fr 1fr;
-grid-template-rows: 15% 10% 1fr;
+#container2 {
+    display: grid;
 
-grid-template-areas: 
-'h2 h2 h2'
-'n2 n2 n2'
-'a2 m2 a3'
+    width: auto;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 15% 10% 1fr;
+
+    grid-template-areas:
+        'h2 h2 h2'
+        'n2 n2 n2'
+        'a2 m2 a3'
 
 
 
 }
 
-#h2{
+#h2 {
     display: flex;
     grid-area: h2;
     background: aliceblue;
     align-items: center;
     justify-content: center;
     font-size: xx-large;
-    
+
 }
-    
-#n2{
+
+#n2 {
     grid-area: n2;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color: #c8ad7e;
     font-size: large;
-    
+
 
 }
 
-    
-   
 
 
-#a2{
+
+
+#a2 {
     grid-area: a2;
     background: url(../img/food/image.jpeg);
     background-size: cover;
 }
 
-#a3{
+#a3 {
     grid-area: a3;
     background: url(../img/food/capybara-1599766_1920.0.0.1473626820.jpg);
     background-size: cover;
-    
+
 
 }
 
-#m2{
+#m2 {
     grid-area: m2;
     background-color: white;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-    
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
 }
 
-.head{
+.head {
     font-size: 50px;
 }
 
-p{
+p {
     font-size: large;
-    font-family:sans-serif ;
+    font-family: sans-serif;
 }
 
-#container3{
+#container3 {
 
     display: grid;
     width: auto;
     height: 100vh;
     grid-template-rows: 15% 10% 1fr;
-    grid-template-areas: 
-    'h3 h3 h3'
-    'n3 n3 n3'
-    'm3 m3 m3'
+    grid-template-areas:
+        'h3 h3 h3'
+        'n3 n3 n3'
+        'm3 m3 m3'
 
     ;
 
 }
 
-#h3{
+#h3 {
     grid-area: h3;
     display: flex;
     background: aliceblue;
@@ -196,7 +205,7 @@ p{
     font-size: xx-large;
 }
 
-#n3{
+#n3 {
     grid-area: n3;
     display: flex;
     justify-content: space-evenly;
@@ -205,32 +214,35 @@ p{
     font-size: large;
 }
 
-#m3{
+#m3 {
     grid-area: m3;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    
+    background-color: #1F1F1F;
+
 }
 
-.card{
+.card {
     display: flex;
-    height:45%;
+    height: 45%;
     width: 22%;
-    background-color: #9e8f81;
+    background-color: #c8ad7e;
     flex-direction: column;
 }
 
-.text{
-    color: white;
+.text {
+    color: black;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     padding: 5px;
+    font-size: larger;
 
 }
-#img1{
+
+#img1 {
     height: 50%;
     width: auto;
     background: url(/img/animals/2019-07-24-04-30-37-550x413.jpeg);
@@ -238,59 +250,60 @@ p{
 
 }
 
-#img2{
+#img2 {
     height: 50%;
     width: auto;
     background: url(/img/animals/image\ \(4\).png);
     background-size: cover;
-    
+
 }
 
-#img3{
+#img3 {
     height: 50%;
     width: auto;
     background: url(/img/animals/gort.png);
     background-size: cover;
-    
+
 }
 
-#img4{
+#img4 {
     height: 50%;
     width: auto;
-    background: url(/img/animals/image\ \(1\).png);  
-    
+    background: url(/img/animals/image\ \(1\).png);
+    background-size: contain;
 }
 
-#img5{
+#img5 {
     height: 50%;
     width: auto;
     background: url(/img/animals/Untitled-1.png);
     background-size: cover;
-    
+
 }
 
-#img6{
+#img6 {
     height: 50%;
     width: auto;
     background: url(/img/animals/Untitled-2.png);
     background-size: cover;
 }
 
-#img7{
+#img7 {
     height: 75%;
     width: auto;
     background: url(/img/animals/nedladdning.png);
     background-size: contain;
-    
+
 }
 
-#img8{
+#img8 {
     height: 75%;
     width: auto;
     background: url(/img/animals/nedladdning.png);
     background-size: contain;
 }
 
-
-
-        
+.heada {
+    font-size: large;
+    padding: 0px 0px 0px 5px;
+}
